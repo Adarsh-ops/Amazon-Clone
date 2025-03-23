@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(15, 15, 15);
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 120px;
+    cursor: pointer;
+}
+
+/* Search Bar Styling */
+.search {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures smooth corners */
+}
+
+/* Input Field */
+.search input {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    width: 450px;
+    border-radius: 10px 0 0 10px;
+    overflow:auto;
+}
+
+/* Search Button */
+.search button {
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search button:hover{
+    background-color: rgb(211, 146, 24);
+}
+/* Search Icon inside Button */
+.search button img {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    object-fit: contain;
+}
+.place-order p{
+    margin: 0;
+}
+.place-order:hover{
+    border:2px solid white;
+}
+.place-order :nth-child(2){
+    font-weight: bolder;
+}
+.place-order button{
+    background-color: rgb(15, 15, 15);
+    border: none;
+    color: white;
+    display: flex;
+    font-size: 17px;
+    flex-direction: column;
+    cursor: pointer;
+    gap:0px;
+}
+.cart button{
+    background-color: rgb(15, 15, 15);
+    border: none;
+    cursor: pointer;
+}
+.cart button:hover{
+    border:2px solid white;
+}
+.cart-count{
+    color: orange;
+    position: relative;
+    top: -32px;
+    left: -47px;
+    font-size: 16px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.rating img{
+    height: 30px;
+    max-width: 150px;
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.pro{
+    padding: 20px;
+    cursor: pointer;
+    border-right: 2px solid rgb(216, 212, 212);
+    border-bottom: 2px solid rgb(216, 212, 212);
+    gap:20px;
+}
+.pro >img{
+    width:250px;
+    height: 250px;
+}
+select{
+    border-radius: 10px;
+    width:35px;
+    height: 30px;
+    background-color: rgb(245, 236, 236);
+}
+.added-to-cart img{
+    width: 18px;
+}
+.addToCart{
+    margin-top:20px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(218, 218, 8);
+    border-radius: 10px;
+}
+.addToCart:hover{
+    background-color: rgb(156, 156, 6);
+}

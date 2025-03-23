@@ -1,0 +1,162 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.logo{
+    width:160px;
+    cursor: pointer;
+    padding: 5px;
+}
+.logo img:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.lock{
+    width:30px;
+    height: 35px;
+}
+.navbar p{
+    font-size: 25px;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.cart{
+    display: flex;
+    align-items: start;
+    gap:15px;
+}
+.review{
+    font-size: 25px;
+    font-weight: 600;
+}
+.cart-content img{
+    width: 120px;
+    height: 120px;
+}
+.img-details{
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    padding-right: 20px;
+}
+.label {
+    display: flex;
+    flex-direction: column; /* Align radio button and text container horizontally */
+    justify-content: center; /* Align items to the top */
+    gap: 4px; /* Add space between the radio button and text */
+}
+.date-1,.date-2,.date-3{
+    display: flex;
+    align-items: flex-start;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+.cart-content{
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+}
+.pro{
+    border: 2px solid rgb(175, 173, 170);
+    padding: 15px;
+    border-radius: 10px;
+}
+.pro>p{
+    font-size: larger;
+    font-weight: 600;
+    color: green;
+}
+.delivery{
+    
+}
+.pro-name{
+    font-weight: 600;
+}
+.pro-price{
+    color: red;
+    font-weight: 700;
+}
+.pro-details button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(2, 167, 167);
+}
+.label span:nth-child(1){
+    color: rgb(3, 122, 3);
+}
+input[type="radio"] {
+    accent-color: red; /* Change the color to red */
+}
+.right{
+    padding: 20px 10px;
+    width:400px;
+    border:2px solid rgb(175, 173, 170);
+    border-radius: 10px;
+}
+.right p:nth-child(1){
+    font-size: 20px;
+    font-weight: bolder;
+}
+.cost-calc{
+    border-bottom: 2px solid rgb(175, 173, 170);
+}
+.cost-calc div{
+    padding: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.order-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+.place-order-btn button{
+    width:400px;
+    padding: 10px 7px;
+    background-color: yellow;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.place-order-btn button:hover{
+    background-color: rgb(185, 185, 2);
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+
+.delivery-date{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.delivery-option{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 8px;
+}
+input{
+    cursor: pointer;
+}
